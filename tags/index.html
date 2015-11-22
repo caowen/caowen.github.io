@@ -51,15 +51,16 @@
 
 
 
-<meta name="description">
+<meta name="description" content="android">
 <meta property="og:type" content="website">
-<meta property="og:title" content="giftven’s blog">
-<meta property="og:url" content="http://giftven.com/index.html">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="http://giftven.com/tags/index.html">
 <meta property="og:site_name" content="giftven’s blog">
-<meta property="og:description">
+<meta property="og:description" content="android">
+<meta property="og:updated_time" content="2015-11-22T03:13:39.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="giftven’s blog">
-<meta name="twitter:description">
+<meta name="twitter:title" content="tags">
+<meta name="twitter:description" content="android">
 
 
 
@@ -71,7 +72,13 @@
   };
 </script>
 
-  <title> giftven’s blog </title>
+  <title>
+  
+
+  
+    tags | giftven’s blog
+  
+</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -92,9 +99,7 @@
 
 
 
-  <div class="container one-column 
-   page-home 
-">
+  <div class="container one-column ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -171,200 +176,19 @@
       <div class="main-inner">
         <div id="content" class="content">
           
-  <section id="posts" class="posts-expand">
 
-    
-
+  <div id="posts" class="posts-expand">
     
     
-      
-      
-        
-        
-        
-      
-
-      
-    
+      <p>android </p>
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
     
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/11/22/夕阳与春天/" itemprop="url">
-                  夕阳与春天
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-11-22T01:05:16+08:00" content="2015-11-22">
-              2015-11-22
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-        </div>
-      </header>
+  <div class="comments" id="comments">
     
+  </div>
 
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody">
-            
-              <p><img src="http://www.tripdv.com/view/pic/200942110400733.jpg" alt=""></p>
-<p><center>余辉弥漫着整个山间与田野，<center></center></center></p>
-<p><center>昏黄的颜色延伸到我的梦里。<center> </center></center></p>
-<p><center>故乡啊，我远方的亲人啊。<center></center></center></p>
-<p><center>时间苍老了容颜，<center> </center></center></p>
-<p><center>渐行渐远，却从未消逝。<center> </center></center></p>
-<p><center>梦里那声音依稀。<center></center></center></p>
-<p><center>池塘边的枯槐又绽开了绿芽，<center> </center></center></p>
-<p><center>又是黄昏刻，<center></center></center></p>
-<p><center>又是一梦春，<center></center></center></p>
-<p><center>又是思乡时。<center></center></center></p>
-
-            
-          </span>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/11/22/android获得系统状态栏高度/" itemprop="url">
-                  android获得系统状态栏高度
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            发表于
-            <time itemprop="dateCreated" datetime="2015-11-22T01:05:16+08:00" content="2015-11-22">
-              2015-11-22
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody">
-            
-              <p>通过 android 系统内部的资源id来获得android手机状态栏的高度android系统提供了通过id获得相应属性的方法getIdentifier(String “属性名” , String “引用类型”,String “包名”)</p>
-<pre><code><span class="comment"><figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">private <span class="type">int</span> getStatusBarHeight() &#123;  </span><br><span class="line"> <span class="type">int</span> <span class="literal">result</span> = <span class="number">0</span>;  </span><br><span class="line"> <span class="type">int</span> resourceId = getResources().getIdentifier(<span class="string">"status_bar_height"</span>, <span class="string">"dimen"</span>, <span class="string">"android"</span>);  </span><br><span class="line"> <span class="keyword">if</span> (resourceId &gt; <span class="number">0</span>) &#123;  </span><br><span class="line">   <span class="literal">result</span>=getResources().getDimensionPixelSize(resourceId);  </span><br><span class="line">        &#125;    </span><br><span class="line">        <span class="keyword">return</span> <span class="literal">result</span>;  </span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure></span>
-</code></pre>
-            
-          </span>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-
-  </section>
-
-  
+  </div>
 
 
         </div>
@@ -373,6 +197,10 @@
 
 
         
+  <div class="comments" id="comments">
+    
+  </div>
+
 
       </div>
 
@@ -485,13 +313,13 @@
   
 
   
-    
-    
+  
+  
 
   
 
 
-  
+
 
   
   <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
@@ -516,6 +344,13 @@
   
 
   
+  
+  
+
+  
+
+
+
   
 
 </body>
