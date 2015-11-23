@@ -228,8 +228,8 @@
             
               
                 
-                <a class="post-title-link" href="/2015/11/23/test/" itemprop="url">
-                  test
+                <a class="post-title-link" href="/2015/11/23/anroid沉浸模式实践/" itemprop="url">
+                  anroid沉浸模式实践
                 </a>
               
             
@@ -239,7 +239,7 @@
         <div class="post-meta">
           <span class="post-time">
             发表于
-            <time itemprop="dateCreated" datetime="2015-11-23T00:03:57+08:00" content="2015-11-23">
+            <time itemprop="dateCreated" datetime="2015-11-23T21:30:35+08:00" content="2015-11-23">
               2015-11-23
             </time>
           </span>
@@ -264,12 +264,12 @@
 
       
         
-          <span itemprop="articleBody">
-            
-              <p> This is a test.</p>
-
-            
-          </span>
+          <p>android 4.4 以上系统api 提供了实现沉浸模式的方法但是4.4 和5.0以上还是有区别的 ：<br>5.0以上可以直接调用系统api ，getWindow().setStatusBarColor(int color);来改变状态栏的颜色。<br>4.4可以通过getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS),将状态栏设为透明色。 然后在布局文件中将android:fitsSystemWindows=”true” 这时状态栏的颜色就和设置该属性的控件的背景色保持一致 但是这里存在一个问题控件的一部分吧会被状态栏遮挡，通过设置 android:clipToPadding=”true” ,可以解决这个问题与没有发现一个问题这样来设置状态栏的颜色很不方便github上提供的一个开源项目,<a href="https://github.com/hexiaochun/SystemBarTint">SystemBarTint</a> 解决了这个问题。<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/11/23/anroid沉浸模式实践/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
